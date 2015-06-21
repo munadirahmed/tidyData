@@ -76,4 +76,4 @@ AveragedDataSet<-arrange(AveragedDataSet,SubjectID)
 ## Write this to a text file in the TidyDataSet folder
 
 write.table(AveragedDataSet,file="./TidyDataSet/tidyAveragedDataSet.txt",row.names = FALSE) 
-#write.table(colnames(AveragedDataSet),file="./TidyDataSet/variableNames.txt",row.names = FALSE) 
+write.table(colnames(AveragedDataSet),file="./TidyDataSet/variableNames.txt",row.names = FALSE,col.names = FALSE) 
