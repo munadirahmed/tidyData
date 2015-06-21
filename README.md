@@ -34,6 +34,8 @@ I
 
 - 'TidyDataSet/tidyAveragedDataSet.txt': text file containing average values for 66 variables of interest. Each row summarises the average of measurements taken on each subject doing one of six activities.
 
+- 'TidyDataSet/variableNames.txt': text file containing the column names for the tidyAveragedDataSet.txt file.
+
 Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
